@@ -7,7 +7,7 @@
     "account": "pnpm --filter=@se-2/foundry account",
     "chain": "pnpm --filter=@se-2/foundry chain",
     "compile": "pnpm --filter=@se-2/foundry compile",
-    "deploy": "pnpm --filter=@se-2/foundry deploy",
+    "deploy-contract": "pnpm --filter=@se-2/foundry deploy-contract",
     "deploy:verify": "pnpm --filter=@se-2/foundry deploy:verify",
     "fork": "pnpm --filter=@se-2/foundry fork",
     "foundry:lint": "pnpm --filter=@se-2/foundry lint",
@@ -34,6 +34,6 @@
   },
   "dependencies": {
     "@team-griffin/install-self-peers": "^1.1.1",
-    "usehooks-ts": "link:patch:usehooks-ts@npm:^2.7.2#./.pnpm/patches/usehooks-ts-npm-2.7.2-fceffe0e43.patch"
+    "usehooks-ts": "^2.9.1"
   }
 }
